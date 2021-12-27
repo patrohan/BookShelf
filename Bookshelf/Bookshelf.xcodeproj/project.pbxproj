@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43157CC92763DCC3006676EE /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43157CC82763DCC3006676EE /* Customer.swift */; };
+		43157CD92763E1DF006676EE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43157CD82763E1DF006676EE /* Order.swift */; };
+		43157CDD27640B90006676EE /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43157CDC27640B90006676EE /* Orders.swift */; };
+		43157CDF27640B9E006676EE /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43157CDE27640B9E006676EE /* Cart.swift */; };
+		43157CE127640C19006676EE /* OrderShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43157CE027640C19006676EE /* OrderShelf.swift */; };
+		43157CE3276488DA006676EE /* CategoryShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43157CE2276488DA006676EE /* CategoryShelf.swift */; };
+		434018FF2765D6C000F379FB /* CartShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434018FE2765D6C000F379FB /* CartShelf.swift */; };
+		4340190F2766541400F379FB /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340190E2766541400F379FB /* Payment.swift */; };
+		434019112766743100F379FB /* GlobalArrayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434019102766743100F379FB /* GlobalArrayManager.swift */; };
+		4372467127648C0C004AD92C /* categoriesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4372466227648C0C004AD92C /* categoriesData.json */; };
+		4372467327649F38004AD92C /* CartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4372467227649F38004AD92C /* CartRow.swift */; };
+		43C7AD802766CFF700015903 /* OrderPlacedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7AD7F2766CFF700015903 /* OrderPlacedRow.swift */; };
+		43DF22DD2755ECB900103837 /* OrderPlaced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF22DC2755ECB900103837 /* OrderPlaced.swift */; };
+		43EE0E1527588F7B0074089A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE0E1427588F7B0074089A /* Login.swift */; };
+		43EE0E2527588FC50074089A /* CustomTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE0E2427588FC50074089A /* CustomTxtField.swift */; };
+		43EE0E2727588FFA0074089A /* CustomButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE0E2627588FFA0074089A /* CustomButtonModifier.swift */; };
+		43EE0E292758902A0074089A /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE0E282758902A0074089A /* Register.swift */; };
+		43EFA324273D917C007720F0 /* BookshelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA323273D917C007720F0 /* BookshelfApp.swift */; };
+		43EFA328273D917E007720F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43EFA327273D917E007720F0 /* Assets.xcassets */; };
+		43EFA32B273D917E007720F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43EFA32A273D917E007720F0 /* Preview Assets.xcassets */; };
+		43EFA335273D917E007720F0 /* BookshelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA334273D917E007720F0 /* BookshelfTests.swift */; };
+		43EFA33F273D917E007720F0 /* BookshelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA33E273D917E007720F0 /* BookshelfUITests.swift */; };
+		43EFA341273D917E007720F0 /* BookshelfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA340273D917E007720F0 /* BookshelfUITestsLaunchTests.swift */; };
+		43EFA34F273D94FF007720F0 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 43EFA34E273D94FF007720F0 /* landmarkData.json */; };
+		43EFA352273D97AC007720F0 /* Bookshelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA351273D97AC007720F0 /* Bookshelf.swift */; };
+		43EFA354273D9872007720F0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA353273D9872007720F0 /* ModelData.swift */; };
+		43EFA35F273D9CCE007720F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA35E273D9CCE007720F0 /* ContentView.swift */; };
+		43EFA363273D9F91007720F0 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA362273D9F91007720F0 /* BookList.swift */; };
+		43EFA365273D9FAE007720F0 /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA364273D9FAE007720F0 /* BookRow.swift */; };
+		43EFA367273DA1B1007720F0 /* BookDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA366273DA1B1007720F0 /* BookDetail.swift */; };
+		43EFA369273DBEE0007720F0 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA368273DBEE0007720F0 /* CategoryRow.swift */; };
+		43EFA36B273DC00E007720F0 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFA36A273DC00E007720F0 /* CategoryList.swift */; };
+		43F402F2274DAE2900BC3EBA /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F402F1274DAE2900BC3EBA /* BookStore.swift */; };
+		43F40324274DB0E500BC3EBA /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F402FE274DB02200BC3EBA /* SQLite.framework */; };
+		43F40325274DB0E500BC3EBA /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43F402FE274DB02200BC3EBA /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43F40328274EC09D00BC3EBA /* HomepageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F40327274EC09C00BC3EBA /* HomepageRow.swift */; };
+		43F4032A274EC35600BC3EBA /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F40329274EC35600BC3EBA /* Homepage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43EFA331273D917E007720F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43EFA318273D917C007720F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43EFA31F273D917C007720F0;
+			remoteInfo = Bookshelf;
+		};
+		43EFA33B273D917E007720F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43EFA318273D917C007720F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43EFA31F273D917C007720F0;
+			remoteInfo = Bookshelf;
+		};
+		43F402FD274DB02200BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		43F402FF274DB02200BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		43F40301274DB02200BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		43F40303274DB02200BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		43F40305274DB02200BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		43F40307274DB02200BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		43F40309274DB02200BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		43F40315274DB04900BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		43F40317274DB04900BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		43F40319274DB04900BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		43F4031B274DB04900BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		43F4031D274DB04900BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		43F4031F274DB04900BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		43F40321274DB04900BC3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43F40326274DB0E600BC3EBA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				43F40325274DB0E500BC3EBA /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43157CC82763DCC3006676EE /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		43157CD82763E1DF006676EE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		43157CDC27640B90006676EE /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		43157CDE27640B9E006676EE /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		43157CE027640C19006676EE /* OrderShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderShelf.swift; sourceTree = "<group>"; };
+		43157CE2276488DA006676EE /* CategoryShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryShelf.swift; sourceTree = "<group>"; };
+		434018FE2765D6C000F379FB /* CartShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartShelf.swift; sourceTree = "<group>"; };
+		4340190E2766541400F379FB /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		434019102766743100F379FB /* GlobalArrayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalArrayManager.swift; sourceTree = "<group>"; };
+		4372466227648C0C004AD92C /* categoriesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = categoriesData.json; path = ../../../Landmarks/Landmarks/Resources/categoriesData.json; sourceTree = "<group>"; };
+		4372467227649F38004AD92C /* CartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRow.swift; sourceTree = "<group>"; };
+		43C7AD7F2766CFF700015903 /* OrderPlacedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPlacedRow.swift; sourceTree = "<group>"; };
+		43DF22DC2755ECB900103837 /* OrderPlaced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPlaced.swift; sourceTree = "<group>"; };
+		43EE0E1427588F7B0074089A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		43EE0E2427588FC50074089A /* CustomTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTxtField.swift; sourceTree = "<group>"; };
+		43EE0E2627588FFA0074089A /* CustomButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonModifier.swift; sourceTree = "<group>"; };
+		43EE0E282758902A0074089A /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		43EFA320273D917C007720F0 /* Bookshelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookshelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EFA323273D917C007720F0 /* BookshelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfApp.swift; sourceTree = "<group>"; };
+		43EFA327273D917E007720F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43EFA32A273D917E007720F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43EFA330273D917E007720F0 /* BookshelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookshelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EFA334273D917E007720F0 /* BookshelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfTests.swift; sourceTree = "<group>"; };
+		43EFA33A273D917E007720F0 /* BookshelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookshelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EFA33E273D917E007720F0 /* BookshelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfUITests.swift; sourceTree = "<group>"; };
+		43EFA340273D917E007720F0 /* BookshelfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43EFA34E273D94FF007720F0 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData.json; path = ../../../Landmarks/Landmarks/Resources/landmarkData.json; sourceTree = "<group>"; };
+		43EFA351273D97AC007720F0 /* Bookshelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookshelf.swift; sourceTree = "<group>"; };
+		43EFA353273D9872007720F0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		43EFA35E273D9CCE007720F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43EFA362273D9F91007720F0 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
+		43EFA364273D9FAE007720F0 /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
+		43EFA366273DA1B1007720F0 /* BookDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetail.swift; sourceTree = "<group>"; };
+		43EFA368273DBEE0007720F0 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		43EFA36A273DC00E007720F0 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		43F402F1274DAE2900BC3EBA /* BookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
+		43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../../Downloads/SQLite-2.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../../Downloads/SQLite-2.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		43F40327274EC09C00BC3EBA /* HomepageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageRow.swift; sourceTree = "<group>"; };
+		43F40329274EC35600BC3EBA /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43EFA31D273D917C007720F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F40324274DB0E500BC3EBA /* SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EFA32D273D917E007720F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EFA337273D917E007720F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43EFA317273D917C007720F0 = {
+			isa = PBXGroup;
+			children = (
+				43EFA322273D917C007720F0 /* Bookshelf */,
+				43EFA333273D917E007720F0 /* BookshelfTests */,
+				43EFA33D273D917E007720F0 /* BookshelfUITests */,
+				43EFA321273D917C007720F0 /* Products */,
+				43F40323274DB0E500BC3EBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43EFA321273D917C007720F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43EFA320273D917C007720F0 /* Bookshelf.app */,
+				43EFA330273D917E007720F0 /* BookshelfTests.xctest */,
+				43EFA33A273D917E007720F0 /* BookshelfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43EFA322273D917C007720F0 /* Bookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				43EFA323273D917C007720F0 /* BookshelfApp.swift */,
+				43EFA355273D98DB007720F0 /* Views */,
+				43EFA327273D917E007720F0 /* Assets.xcassets */,
+				43EFA350273D976C007720F0 /* Model */,
+				43EFA34D273D9487007720F0 /* Resources */,
+				43EFA329273D917E007720F0 /* Preview Content */,
+			);
+			path = Bookshelf;
+			sourceTree = "<group>";
+		};
+		43EFA329273D917E007720F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43EFA32A273D917E007720F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43EFA333273D917E007720F0 /* BookshelfTests */ = {
+			isa = PBXGroup;
+			children = (
+				43EFA334273D917E007720F0 /* BookshelfTests.swift */,
+			);
+			path = BookshelfTests;
+			sourceTree = "<group>";
+		};
+		43EFA33D273D917E007720F0 /* BookshelfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */,
+				43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */,
+				43EFA33E273D917E007720F0 /* BookshelfUITests.swift */,
+				43EFA340273D917E007720F0 /* BookshelfUITestsLaunchTests.swift */,
+			);
+			path = BookshelfUITests;
+			sourceTree = "<group>";
+		};
+		43EFA34D273D9487007720F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43EFA34E273D94FF007720F0 /* landmarkData.json */,
+				4372466227648C0C004AD92C /* categoriesData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		43EFA350273D976C007720F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43EFA351273D97AC007720F0 /* Bookshelf.swift */,
+				43EFA353273D9872007720F0 /* ModelData.swift */,
+				43F402F1274DAE2900BC3EBA /* BookStore.swift */,
+				43157CC82763DCC3006676EE /* Customer.swift */,
+				43157CD82763E1DF006676EE /* Order.swift */,
+				43157CE027640C19006676EE /* OrderShelf.swift */,
+				43157CE2276488DA006676EE /* CategoryShelf.swift */,
+				434018FE2765D6C000F379FB /* CartShelf.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43EFA355273D98DB007720F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43EFA35E273D9CCE007720F0 /* ContentView.swift */,
+				43EFA362273D9F91007720F0 /* BookList.swift */,
+				43EFA364273D9FAE007720F0 /* BookRow.swift */,
+				43EFA366273DA1B1007720F0 /* BookDetail.swift */,
+				43EFA368273DBEE0007720F0 /* CategoryRow.swift */,
+				43EFA36A273DC00E007720F0 /* CategoryList.swift */,
+				43F40327274EC09C00BC3EBA /* HomepageRow.swift */,
+				43F40329274EC35600BC3EBA /* Homepage.swift */,
+				43DF22DC2755ECB900103837 /* OrderPlaced.swift */,
+				43EE0E1427588F7B0074089A /* Login.swift */,
+				43EE0E2427588FC50074089A /* CustomTxtField.swift */,
+				43EE0E2627588FFA0074089A /* CustomButtonModifier.swift */,
+				43EE0E282758902A0074089A /* Register.swift */,
+				43157CDC27640B90006676EE /* Orders.swift */,
+				43157CDE27640B9E006676EE /* Cart.swift */,
+				4372467227649F38004AD92C /* CartRow.swift */,
+				4340190E2766541400F379FB /* Payment.swift */,
+				434019102766743100F379FB /* GlobalArrayManager.swift */,
+				43C7AD7F2766CFF700015903 /* OrderPlacedRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43F402F4274DB02100BC3EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F402FE274DB02200BC3EBA /* SQLite.framework */,
+				43F40300274DB02200BC3EBA /* SQLiteTests iOS.xctest */,
+				43F40302274DB02200BC3EBA /* SQLite.framework */,
+				43F40304274DB02200BC3EBA /* SQLiteTests Mac.xctest */,
+				43F40306274DB02200BC3EBA /* SQLite.framework */,
+				43F40308274DB02200BC3EBA /* SQLiteTests tvOS.xctest */,
+				43F4030A274DB02200BC3EBA /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F4030C274DB04900BC3EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F40316274DB04900BC3EBA /* SQLite.framework */,
+				43F40318274DB04900BC3EBA /* SQLiteTests iOS.xctest */,
+				43F4031A274DB04900BC3EBA /* SQLite.framework */,
+				43F4031C274DB04900BC3EBA /* SQLiteTests Mac.xctest */,
+				43F4031E274DB04900BC3EBA /* SQLite.framework */,
+				43F40320274DB04900BC3EBA /* SQLiteTests tvOS.xctest */,
+				43F40322274DB04900BC3EBA /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F40323274DB0E500BC3EBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43EFA31F273D917C007720F0 /* Bookshelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43EFA344273D917E007720F0 /* Build configuration list for PBXNativeTarget "Bookshelf" */;
+			buildPhases = (
+				43EFA31C273D917C007720F0 /* Sources */,
+				43EFA31D273D917C007720F0 /* Frameworks */,
+				43EFA31E273D917C007720F0 /* Resources */,
+				43F40326274DB0E600BC3EBA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookshelf;
+			productName = Bookshelf;
+			productReference = 43EFA320273D917C007720F0 /* Bookshelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43EFA32F273D917E007720F0 /* BookshelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43EFA347273D917E007720F0 /* Build configuration list for PBXNativeTarget "BookshelfTests" */;
+			buildPhases = (
+				43EFA32C273D917E007720F0 /* Sources */,
+				43EFA32D273D917E007720F0 /* Frameworks */,
+				43EFA32E273D917E007720F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43EFA332273D917E007720F0 /* PBXTargetDependency */,
+			);
+			name = BookshelfTests;
+			productName = BookshelfTests;
+			productReference = 43EFA330273D917E007720F0 /* BookshelfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43EFA339273D917E007720F0 /* BookshelfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43EFA34A273D917E007720F0 /* Build configuration list for PBXNativeTarget "BookshelfUITests" */;
+			buildPhases = (
+				43EFA336273D917E007720F0 /* Sources */,
+				43EFA337273D917E007720F0 /* Frameworks */,
+				43EFA338273D917E007720F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43EFA33C273D917E007720F0 /* PBXTargetDependency */,
+			);
+			name = BookshelfUITests;
+			productName = BookshelfUITests;
+			productReference = 43EFA33A273D917E007720F0 /* BookshelfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43EFA318273D917C007720F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					43EFA31F273D917C007720F0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					43EFA32F273D917E007720F0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 43EFA31F273D917C007720F0;
+					};
+					43EFA339273D917E007720F0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 43EFA31F273D917C007720F0;
+					};
+				};
+			};
+			buildConfigurationList = 43EFA31B273D917C007720F0 /* Build configuration list for PBXProject "Bookshelf" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43EFA317273D917C007720F0;
+			productRefGroup = 43EFA321273D917C007720F0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 43F402F4274DB02100BC3EBA /* Products */;
+					ProjectRef = 43F402F3274DB02100BC3EBA /* SQLite.xcodeproj */;
+				},
+				{
+					ProductGroup = 43F4030C274DB04900BC3EBA /* Products */;
+					ProjectRef = 43F4030B274DB04900BC3EBA /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				43EFA31F273D917C007720F0 /* Bookshelf */,
+				43EFA32F273D917E007720F0 /* BookshelfTests */,
+				43EFA339273D917E007720F0 /* BookshelfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		43F402FE274DB02200BC3EBA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43F402FD274DB02200BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F40300274DB02200BC3EBA /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 43F402FF274DB02200BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F40302274DB02200BC3EBA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43F40301274DB02200BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F40304274DB02200BC3EBA /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 43F40303274DB02200BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F40306274DB02200BC3EBA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43F40305274DB02200BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F40308274DB02200BC3EBA /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 43F40307274DB02200BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F4030A274DB02200BC3EBA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43F40309274DB02200BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F40316274DB04900BC3EBA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43F40315274DB04900BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F40318274DB04900BC3EBA /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 43F40317274DB04900BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F4031A274DB04900BC3EBA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43F40319274DB04900BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F4031C274DB04900BC3EBA /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 43F4031B274DB04900BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F4031E274DB04900BC3EBA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43F4031D274DB04900BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F40320274DB04900BC3EBA /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 43F4031F274DB04900BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F40322274DB04900BC3EBA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43F40321274DB04900BC3EBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43EFA31E273D917C007720F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EFA32B273D917E007720F0 /* Preview Assets.xcassets in Resources */,
+				43EFA328273D917E007720F0 /* Assets.xcassets in Resources */,
+				43EFA34F273D94FF007720F0 /* landmarkData.json in Resources */,
+				4372467127648C0C004AD92C /* categoriesData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EFA32E273D917E007720F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EFA338273D917E007720F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43EFA31C273D917C007720F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F40328274EC09D00BC3EBA /* HomepageRow.swift in Sources */,
+				43EE0E292758902A0074089A /* Register.swift in Sources */,
+				43EFA363273D9F91007720F0 /* BookList.swift in Sources */,
+				434018FF2765D6C000F379FB /* CartShelf.swift in Sources */,
+				43157CD92763E1DF006676EE /* Order.swift in Sources */,
+				43EFA352273D97AC007720F0 /* Bookshelf.swift in Sources */,
+				43F4032A274EC35600BC3EBA /* Homepage.swift in Sources */,
+				43DF22DD2755ECB900103837 /* OrderPlaced.swift in Sources */,
+				4340190F2766541400F379FB /* Payment.swift in Sources */,
+				43EE0E2527588FC50074089A /* CustomTxtField.swift in Sources */,
+				43EFA369273DBEE0007720F0 /* CategoryRow.swift in Sources */,
+				43157CE127640C19006676EE /* OrderShelf.swift in Sources */,
+				4372467327649F38004AD92C /* CartRow.swift in Sources */,
+				43EFA354273D9872007720F0 /* ModelData.swift in Sources */,
+				43157CDF27640B9E006676EE /* Cart.swift in Sources */,
+				43EE0E1527588F7B0074089A /* Login.swift in Sources */,
+				43C7AD802766CFF700015903 /* OrderPlacedRow.swift in Sources */,
+				43EFA35F273D9CCE007720F0 /* ContentView.swift in Sources */,
+				43EFA324273D917C007720F0 /* BookshelfApp.swift in Sources */,
+				43EE0E2727588FFA0074089A /* CustomButtonModifier.swift in Sources */,
+				43157CDD27640B90006676EE /* Orders.swift in Sources */,
+				43EFA367273DA1B1007720F0 /* BookDetail.swift in Sources */,
+				43EFA365273D9FAE007720F0 /* BookRow.swift in Sources */,
+				43157CE3276488DA006676EE /* CategoryShelf.swift in Sources */,
+				434019112766743100F379FB /* GlobalArrayManager.swift in Sources */,
+				43157CC92763DCC3006676EE /* Customer.swift in Sources */,
+				43F402F2274DAE2900BC3EBA /* BookStore.swift in Sources */,
+				43EFA36B273DC00E007720F0 /* CategoryList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EFA32C273D917E007720F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EFA335273D917E007720F0 /* BookshelfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EFA336273D917E007720F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EFA341273D917E007720F0 /* BookshelfUITestsLaunchTests.swift in Sources */,
+				43EFA33F273D917E007720F0 /* BookshelfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43EFA332273D917E007720F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43EFA31F273D917C007720F0 /* Bookshelf */;
+			targetProxy = 43EFA331273D917E007720F0 /* PBXContainerItemProxy */;
+		};
+		43EFA33C273D917E007720F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43EFA31F273D917C007720F0 /* Bookshelf */;
+			targetProxy = 43EFA33B273D917E007720F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43EFA342273D917E007720F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43EFA343273D917E007720F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43EFA345273D917E007720F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bookshelf/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.Bookshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43EFA346273D917E007720F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bookshelf/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.Bookshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43EFA348273D917E007720F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.BookshelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookshelf.app/Bookshelf";
+			};
+			name = Debug;
+		};
+		43EFA349273D917E007720F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.BookshelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookshelf.app/Bookshelf";
+			};
+			name = Release;
+		};
+		43EFA34B273D917E007720F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.BookshelfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bookshelf;
+			};
+			name = Debug;
+		};
+		43EFA34C273D917E007720F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.BookshelfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bookshelf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43EFA31B273D917C007720F0 /* Build configuration list for PBXProject "Bookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EFA342273D917E007720F0 /* Debug */,
+				43EFA343273D917E007720F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43EFA344273D917E007720F0 /* Build configuration list for PBXNativeTarget "Bookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EFA345273D917E007720F0 /* Debug */,
+				43EFA346273D917E007720F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43EFA347273D917E007720F0 /* Build configuration list for PBXNativeTarget "BookshelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EFA348273D917E007720F0 /* Debug */,
+				43EFA349273D917E007720F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43EFA34A273D917E007720F0 /* Build configuration list for PBXNativeTarget "BookshelfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EFA34B273D917E007720F0 /* Debug */,
+				43EFA34C273D917E007720F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43EFA318273D917C007720F0 /* Project object */;
+}
